@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d77040c7c474664a8229fe49f5ba8e1d",
+    "content-hash": "128a84d63a1025e0b32ca26cbfc59b2e",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1333,6 +1333,50 @@
                 "validator"
             ],
             "time": "2020-08-08T21:28:19+00:00"
+        },
+        {
+            "name": "jackai/symfony-validator",
+            "version": "v0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackai/SymfonyValidator.git",
+                "reference": "63cdaf1ac7c6ecf0f8b1f383a08cd596bd349a69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jackai/SymfonyValidator/zipball/63cdaf1ac7c6ecf0f8b1f383a08cd596bd349a69",
+                "reference": "63cdaf1ac7c6ecf0f8b1f383a08cd596bd349a69",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "^1.0",
+                "php": "^7.1",
+                "symfony/framework-bundle": "^4.0|^5.0",
+                "symfony/validator": "^5.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Jackai\\Validator\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jackai",
+                    "homepage": "https://github.com/jackai/"
+                }
+            ],
+            "description": "Validate request on symfony controller annotation",
+            "keywords": [
+                "annotation",
+                "symfony",
+                "validate"
+            ],
+            "time": "2020-08-29T16:35:11+00:00"
         },
         {
             "name": "monolog/monolog",

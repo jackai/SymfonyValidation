@@ -84,6 +84,9 @@
     "egulias/email-validator": {
         "version": "2.19.0"
     },
+    "jackai/symfony-validator": {
+        "version": "v0.5"
+    },
     "monolog/monolog": {
         "version": "2.1.1"
     },
