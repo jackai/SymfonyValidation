@@ -19,7 +19,7 @@ class TestController extends AbstractController
      *     requireQuery = {"name"},
      *     query = {
      *         {"name" = "name", "rule" = "Assert\Length", "ruleOption" = {"min" = 1, "max" = 30}, "errorCode" = "111", "errorMsg" = "Invalid name"},
-     *         {"name" = "name", "rule" = "Assert\Length", "ruleOption" = {"min" = 1, "max" = 15}, "errorCode" = "117", "errorMsg" = "Invalid name2"},
+     *         {"name" = "name", "rule" = "App\Validator\Constraints\ContainsAlphanumeric", "errorCode" = "117", "errorMsg" = "Invalid name, should be alphanumeric"},
      *         {"name" = "price", "rule" = "Assert\GreaterThan", "ruleOption" = "0", "errorCode" = "112", "default" = "99999", "errorMsg" = "Invalid price"},
      *         {"name" = "picture", "rule" = "Assert\Length", "ruleOption" = {"min" = 1, "max" = 30}, "errorCode" = "113", "errorMsg" = "Invalid picture"},
      *     }
